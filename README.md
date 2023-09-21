@@ -145,25 +145,25 @@ v = s.step;
 // returns -1
 ```
 
-The function returns an error object if provided in invalid subsequence string.
+The function returns an error object if provided an invalid subsequence string.
 
 ```javascript
 var s = seq2slice( '1:2:3:4', 10, false );
-// returns { 'code': 'ERR_INVALID_SUBSEQUENCE' }
+// returns { 'code': 'ERR_SLICE_INVALID_SUBSEQUENCE' }
 ```
 
 When `strict` is `true`, the function returns an error object if a subsequence string resolves to a slice exceeding index bounds.
 
 ```javascript
 var s = seq2slice( '10:20', 10, true );
-// returns { 'code': 'ERR_OUT_OF_BOUNDS' }
+// returns { 'code': 'ERR_SLICE_OUT_OF_BOUNDS' }
 ```
 
 A returned error object may have one of the following error codes:
 
--   **ERR_INVALID_SUBSEQUENCE**: a subsequence string is invalid.
--   **ERR_INVALID_INCREMENT**: a subsequence string must have a non-zero increment.
--   **ERR_OUT_OF_BOUNDS**: a subsequence string resolves to a slice exceeding index bounds.
+-   **ERR_SLICE_INVALID_SUBSEQUENCE**: a subsequence string is invalid.
+-   **ERR_SLICE_INVALID_INCREMENT**: a subsequence string must have a non-zero increment.
+-   **ERR_SLICE_OUT_OF_BOUNDS**: a subsequence string resolves to a slice exceeding index bounds.
 
 </section>
 
@@ -337,8 +337,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/slice-base-seq2slice.svg
 [npm-url]: https://npmjs.org/package/@stdlib/slice-base-seq2slice
 
-[test-image]: https://github.com/stdlib-js/slice-base-seq2slice/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/slice-base-seq2slice/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/slice-base-seq2slice/actions/workflows/test.yml/badge.svg?branch=v0.0.1
+[test-url]: https://github.com/stdlib-js/slice-base-seq2slice/actions/workflows/test.yml?query=branch:v0.0.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/slice-base-seq2slice/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/slice-base-seq2slice?branch=main
