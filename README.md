@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import seq2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2slice@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/slice-base-seq2slice/tags). For example,
+
+```javascript
 import seq2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2slice@v0.1.0-deno/mod.js';
 ```
 
@@ -179,7 +184,7 @@ A returned error object may have one of the following error codes:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import seq2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2slice@v0.1.0-deno/mod.js';
+import seq2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2slice@deno/mod.js';
 
 var s = seq2slice( ':', 5, false );
 console.log( 'start: %s. stop: %s. step: %s.', s.start, s.stop, s.step );
