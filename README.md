@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import seq2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2slice@esm/index.mjs';
+import seq2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2slice@v0.1.0-esm/index.mjs';
 ```
 
 <a name="main"></a>
@@ -184,7 +184,7 @@ A returned error object may have one of the following error codes:
 <body>
 <script type="module">
 
-import seq2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2slice@esm/index.mjs';
+import seq2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2slice@v0.1.0-esm/index.mjs';
 
 var s = seq2slice( ':', 5, false );
 console.log( 'start: %s. stop: %s. step: %s.', s.start, s.stop, s.step );
