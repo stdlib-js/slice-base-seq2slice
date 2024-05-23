@@ -296,6 +296,13 @@ console.log( 'start: %s. stop: %s. step: %s.', s.start, s.stop, s.step );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/slice-base/seq2multislice`][@stdlib/slice/base/seq2multislice]</span><span class="delimiter">: </span><span class="description">convert a multidimensional subsequence string to a MultiSlice object.</span>
+-   <span class="package-name">[`@stdlib/slice-base/slice2seq`][@stdlib/slice/base/slice2seq]</span><span class="delimiter">: </span><span class="description">convert a Slice object to a subsequence string.</span>
+
 </section>
 
 <!-- /.related -->
@@ -373,6 +380,14 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/slice-base-seq2slice/main/LICENSE
 
 [@stdlib/slice/ctor]: https://github.com/stdlib-js/slice-ctor
+
+<!-- <related-links> -->
+
+[@stdlib/slice/base/seq2multislice]: https://github.com/stdlib-js/slice-base-seq2multislice
+
+[@stdlib/slice/base/slice2seq]: https://github.com/stdlib-js/slice-base-slice2seq
+
+<!-- </related-links> -->
 
 </section>
 
