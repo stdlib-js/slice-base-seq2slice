@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/slice-base-seq2slice",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Convert a subsequence string to a Slice object.",
   "license": "Apache-2.0",
   "author": {
@@ -37,9 +37,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-special-floor": "^0.2.2",
+    "@stdlib/math-base-special-floor": "^0.2.3",
     "@stdlib/slice-ctor": "^0.2.1",
-    "@stdlib/string-base-trim": "^0.2.1",
+    "@stdlib/string-base-trim": "^0.2.2",
     "@stdlib/types": "^0.3.2"
   },
   "devDependencies": {
