@@ -40,7 +40,7 @@
     "@stdlib/math-base-special-floor": "^0.2.3",
     "@stdlib/slice-ctor": "^0.2.2",
     "@stdlib/string-base-trim": "^0.2.2",
-    "@stdlib/types": "^0.4.1"
+    "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-slice": "^0.2.2",
