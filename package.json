@@ -38,16 +38,16 @@
   },
   "dependencies": {
     "@stdlib/math-base-special-floor": "^0.2.4",
-    "@stdlib/slice-ctor": "^0.2.2",
+    "@stdlib/slice-ctor": "^0.2.3",
     "@stdlib/string-base-trim": "^0.2.3",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
-    "@stdlib/assert-is-slice": "^0.2.2",
+    "@stdlib/assert-is-slice": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
